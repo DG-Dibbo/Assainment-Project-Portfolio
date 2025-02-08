@@ -1,0 +1,145 @@
+.banner-img{
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.navBar{
+    display: flex;
+    color: blue;
+    list-style-type: none;
+    margin-top: 40px;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer; 
+}
+.btn-download {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-download:hover {
+    background-color: #31b0d5;
+}
+.menuBar{
+    margin-left: 800px;
+}
+.name1{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+.name2{
+    margin-left: 30px;
+    margin-top: 10px; 
+    color: white;
+}
+.name3{
+    margin-left: 20px;
+    color: white;
+}
+.name4{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 400px;
+    text-align: justify;
+    color: white;
+}
+
+.about-me{
+    margin-left: 200px;
+    width: 75%;
+    margin-top: 20px;
+}
+.profile{
+    width: 50%;
+    height: 50%;
+    margin-right: 330px;
+}
+.profile-img{
+    width: 400px;
+    height: 530px;
+    margin-left: 380px;
+    
+}
+.part1-portfolio{
+    color: rgb(232, 232, 234);
+    text-align: center;
+    margin-top: 30px;
+}
+.main-part{
+    align-items: center;
+    
+}
+.badge{
+    margin-left: 8px;
+    font-size: 20px
+}
+.part-1-container{
+    width: 535px;
+    height: 673px;
+}
+.part-2-container{
+    width: 534.38px;
+    height: 168px;
+}
+.experience-education{
+    margin-left: 260px;
+    margin-top: 20px;
+}
+/* Footer start */
+#contact-us{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.address-menu{
+    width: 500px;
+    height: 500px;
+    /* background-color: gray; */
+    border: 2px solid gray;
+    box-shadow: 4px 4px 8px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.email-add{
+    width: 270px;
+}
+.textArea{
+    width: 270px;
+    height: 40%; 
+}
+.copyessue{
+    text-align: center;
+    color: white;
+
+}
+.emoji{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.emoji li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.emoji li a {
+    font-size: 24px;
+    color: rgb(122, 5, 5);
+}
+
+.emoji li a:hover {
+    color: chocolate;
+}
+

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+        integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body style="background-color: black;">
+    <header>
+        <!-- Navbar Section -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="images/undraw_prioritise_f8db.png" alt="Logo" width="50">
+                    </a>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar Links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto gap-3">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Skill</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item">
+                                <a href="yourfile.pdf" download class="btn btn-primary">
+                                    Resume <i class="bi bi-download"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- About Me  -->
+        <section class="about-yourself d-flex align-items-center justify-content-around ">
+            <div class="about-me">
+                <h1 class="name1">Hi!</h1>
+                <h1 class="name2">I'm Dibbo Ghosh</h1>
+                <h5 class="name3"> Web Developer || React Developer || Programmer </h5>
+                <p class="name4">
+                    ✅"I am a Frontend Developer and a Software Engineer specializing in web development.
+                    ✅ I have expertise in JavaScript, PHP, Python, MySQL, C, and C++.
+                    ✅ Additionally, I work as a freelancer and a member of Phitron at Programming Hero."
+                </p>
+            </div>
+            <div class="profile">
+                <img class="profile-img" src="images/IMG__172_-removebg-preview.png" alt="Profile picture">
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <h1 class="part1-portfolio">Portfolio</h1>
+        <section class="main-part d-flex justify-content-evenly align-items-center mt-5">
+            <div class="card mb-3 d-flex justify-content-evenly align-items-center"
+                style="max-width: 972px; max-height: 434px; background-color: #111; color: white; padding: 20px; border-radius: 10px;">
+                <div class="row g-0">
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <img src="images/travel-guru-map.png" class="img-fluid rounded-start" alt="travel-guru-map">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-8">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #00d9ff; font-weight: bold;">Online University 🎓</h5>
+                            <p class="card-text">
+                                This is a Travel Service Agency website where users can log in via Facebook, Google, and
+                                GitHub.
+                                Users can also create a new account and choose the service they want.
+                            </p>
+                            <ul>
+                                <li>🚗 Choose the perfect vehicle as needed.</li>
+                                <li>📍 See current location on the map.</li>
+                                <li>🔐 Firebase Authentication for secure login.</li>
+                            </ul>
+                            <div class="tech-stack d-flex gap-1">
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Python</span>
+                                <span class="badge bg-secondary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                                <span class="badge bg-secondary">NodeJs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-part d-flex justify-content-evenly align-items-center mt-5">
+            <div class="card mb-3 d-flex justify-content-evenly align-items-center"
+                style="max-width: 972px; max-height: 434px; background-color: #111; color: white; padding: 20px; border-radius: 10px;">
+                <div class="row g-0">
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <img src="images/travel-guru-map.png" class="img-fluid rounded-start" alt="travel-guru-map">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-4">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #00d9ff; font-weight: bold;">Online University 🎓</h5>
+                            <p class="card-text">
+                                This is a Travel Service Agency website where users can log in via Facebook, Google, and
+                                GitHub.
+                                Users can also create a new account and choose the service they want.
+                            </p>
+                            <ul>
+                                <li>🚗 Choose the perfect vehicle as needed.</li>
+                                <li>📍 See current location on the map.</li>
+                                <li>🔐 Firebase Authentication for secure login.</li>
+                            </ul>
+                            <div class="tech-stack d-flex gap-1">
+                                <span class="badge bg-secondary">C</span>
+                                <span class="badge bg-secondary">C++</span>
+                                <span class="badge bg-secondary">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--                          Experience & Education part              -->
+
+        <section class="experience-education d-flex align-items-center justify-content-between">
+            <div class="part-1-container row col-lg-6 col-md-6 col-sm-8">
+                <!--                      Expertise                        -->
+                <h2 style="color: white;font-style:initial">Expertise:</h2>
+
+                <div class="badge tech-stack d-flex gap-3 mt-1">
+                    <span class="badge bg-secondary">ReactJs</span>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">HTML</span>
+                    <span class="badge bg-secondary">CSS</span>
+                    <span class="badge bg-secondary">Nodejs</span>
+                </div>
+
+                <div class="badge tech-stack d-flex gap-3">
+                    <span class="badge bg-secondary">Bootstrap</span>
+                    <span class="badge bg-secondary">JavaScript</span>
+                    <span class="badge bg-secondary">C</span>
+                    <span class="badge bg-secondary">C++</span>
+                </div>
+
+                <!--                      Comfortable                        -->
+                <h2 style="color: white;font-style:initial">Comfortable:</h2>
+
+                <div class="badge tech-stack d-flex gap-3 mt-1">
+                    <span class="badge bg-secondary">SQL</span>
+                    <span class="badge bg-secondary">Redux</span>
+                    <span class="badge bg-secondary">Socket.io</span>
+                    <span class="badge bg-secondary">Doker</span>
+                    <span class="badge bg-secondary">TypeScript</span>
+                    <span class="badge bg-secondary">NextJs</span>
+                </div>
+
+                <!--                      Familiar                        -->
+                <h2 style="color: white;font-style:initial">Familiar:</h2>
+
+                <div class="badge tech-stack d-flex gap-3 mt-1">
+                    <span class="badge bg-secondary">C++</span>
+                    <span class="badge bg-secondary">Python</span>
+                    <span class="badge bg-secondary">Microsoft Office</span>
+                    <span class="badge bg-secondary">It-Support</span>
+                    <span class="badge bg-secondary">Networking</span>
+                </div>
+                <!--                      Tools                        -->
+                <h2 style="color: white;font-style:initial">Tools:</h2>
+
+                <div class="badge tech-stack d-flex gap-3 mt-1">
+                    <span class="badge bg-secondary">VsCode</span>
+                    <span class="badge bg-secondary">Pycharm</span>
+                    <span class="badge bg-secondary">Codeblocks</span>
+                    <span class="badge bg-secondary">Notepad++</span>
+                    <span class="badge bg-secondary">GoogleDocs</span>
+                </div>
+
+            </div>
+
+            <div class="part-2-container col-lg-6 col-md-6 col-sm-4">
+                <h1 style="color: rgb(23, 114, 205);">My Education!</h1>
+                <p style="width: 420px; color: aliceblue;">
+                    Bsc in Computer Science & Engineering (CSE).
+                    University Of Global Village(Barishal,Bangladesh)
+                    Session: 2022-2026
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 id="contact-us">Contact with me</h1>
+        <section class="d-flex align-items-center justify-content-evenly p-3">
+
+            <div class="address-menu">
+
+                <div class="col-md-3 p-2">
+                    <input type="text" class="form-control" placeholder="firstName" required>
+                </div>
+
+                <div class="col-md-3 p-2">
+                    <input type="text" class="form-control" id="lastName" placeholder="lastName" required>
+                </div>
+
+                <div class="col-mb-3 p-2">
+                    <input class="email-add" type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+
+                <div class="col-mb-3 p-2">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Example textarea</label>
+                    <textarea class="textArea form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="form-check p-1">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                        aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                        Agree to terms and conditions
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+
+                <div class="p-2">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="copyessue p-5">
+                <h5>Copyright @2022 | Dibbo Ghosh</h5>
+                <p> University of Global Village Barisal(UGV)</p>
+                <div class="emoji">
+                    <li>
+                        <a href="#"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <a class="icon-link icon-link-hover" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);text-decoration: none;" href="#">
+                        <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
+                        Feedback
+                      </a>
+                </div>
+            </div>
+            
+        </section>
+    </footer>
+</body>
+
+</html>
